@@ -12,7 +12,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: demo-apps
   source:
-    path: kustomize/ocp4/gitops
+    path: kustomize/ocp4/cluster-gitops
     repoURL: 'https://github.com/Caseraw/demo-argocd.git'
     targetRevision: HEAD
   syncPolicy:
