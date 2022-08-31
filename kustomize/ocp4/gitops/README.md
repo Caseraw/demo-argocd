@@ -22,7 +22,7 @@ Clone the repository:
 
 Apply the resources:
 
-`oc apply -k github_repo/kustomize/ocp4/gitops`
+`oc apply -k kustomize/ocp4/gitops`
 
 ## Resources
 
