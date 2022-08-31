@@ -5,5 +5,7 @@ resources:
 - resources/subscription.yaml
 - resources/argocd.yaml
 - resources/appproject.yaml
+- resources/secret.yaml
+- resources/application.yaml
 patches:
 - patches/argocd.yaml
