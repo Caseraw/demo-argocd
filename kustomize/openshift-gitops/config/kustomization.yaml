@@ -6,7 +6,6 @@ resources:
 - resources/secret.yaml
 - resources/clusterrole.yaml
 - resources/clusterrolebinding.yaml
-# - resources/gitopsservice.yaml
 - resources/argocd.yaml
 - resources/application.yaml
 
