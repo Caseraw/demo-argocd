@@ -20,7 +20,3 @@ patches:
       server:
         route:
           enabled: true
-          tls:
-            insecureEdgeTerminationPolicy: Redirect
-            termination: passthrough
-          wildcardPolicy: None
