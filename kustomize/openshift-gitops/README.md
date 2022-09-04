@@ -26,6 +26,7 @@ Apply the resources:
 
 ## Resources
 
+- https://docs.openshift.com/container-platform/4.10/cicd/gitops/gitops-release-notes.html
 - https://github.com/argoproj-labs/argocd-operator
 - https://github.com/argoproj-labs/argocd-operator/tree/master/examples
 - https://argocd-operator.readthedocs.io/en/latest/install/openshift
