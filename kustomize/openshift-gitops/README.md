@@ -1,7 +1,6 @@
 # Installing OpenShift GitOps (ArgoCD)
 
-This is an example setup for ArgoCD using the OpenShift GitOps Operator. It uses
-and enhances the existing Cluster ArgoCD instance that comes with the Operator.
+This is an example setup installs and configures the OpenShift GitOps Operator.
 
 ## Platforms
 
@@ -20,9 +19,13 @@ Clone the repository:
 
 `git clone https://github.com/Caseraw/demo-argocd.git`
 
-Apply the resources:
+Install:
 
-`oc apply -k kustomize/ocp4/gitops`
+`oc apply -k kustomize/openshift-gitops/install`
+
+Configure:
+
+`oc apply -k kustomize/openshift-gitops/config`
 
 ## Resources
 
