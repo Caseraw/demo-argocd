@@ -14,7 +14,7 @@ spec:
   source:
     directory:
       recurse: true
-    path: kustomize/ocp/openshift-gitops
+    path: kustomize/openshift-gitops
     repoURL: 'https://github.com/Caseraw/demo-argocd.git'
     targetRevision: HEAD
   syncPolicy:
