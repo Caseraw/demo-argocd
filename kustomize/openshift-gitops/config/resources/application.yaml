@@ -12,8 +12,6 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    directory:
-      recurse: true
     path: kustomize/openshift-gitops
     repoURL: 'https://github.com/Caseraw/demo-argocd.git'
     targetRevision: HEAD
