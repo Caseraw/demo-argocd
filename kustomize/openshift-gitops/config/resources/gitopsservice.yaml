@@ -3,8 +3,6 @@ apiVersion: pipelines.openshift.io/v1alpha1
 kind: GitopsService
 metadata:
   name: cluster
-  annotations:
-    argocd.argoproj.io/sync-wave: "1"
 spec:
   runOnInfra: true
   tolerations:
