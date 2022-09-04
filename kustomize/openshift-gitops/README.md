@@ -30,6 +30,7 @@ Apply the resources:
 - https://github.com/argoproj-labs/argocd-operator/tree/master/examples
 - https://argocd-operator.readthedocs.io/en/latest/install/openshift
 - https://argo-cd.readthedocs.io/en/stable
+- https://github.com/redhat-developer/openshift-gitops-getting-started
 - https://developers.redhat.com/learn/openshift/develop-gitops
 - https://developers.redhat.com/courses/gitops/getting-started-argocd-and-openshift-gitops-operator
 - https://cloud.redhat.com/blog/introduction-to-gitops-with-openshift

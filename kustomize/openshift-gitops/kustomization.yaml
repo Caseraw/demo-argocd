@@ -4,8 +4,9 @@ kind: Kustomization
 resources:
 - resources/subscription.yaml
 - resources/argocd.yaml
-- resources/appproject.yaml
-- resources/secret.yaml
+# - resources/appproject.yaml
+# - resources/secret.yaml
+- resources/gitopsservice.yaml
 - resources/application.yaml
 patches:
 - patches/argocd.yaml

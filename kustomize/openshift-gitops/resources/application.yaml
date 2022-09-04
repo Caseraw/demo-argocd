@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: demo-argocd
+  name: cluster-configs
   namespace: openshift-gitops
   annotations:
     argocd.argoproj.io/sync-wave: "2"
@@ -10,9 +10,9 @@ spec:
   destination:
     namespace: openshift-gitops
     server: 'https://kubernetes.default.svc'
-  project: demo-apps
+  project: default
   source:
-    path: kustomize/ocp4/cluster-gitops
+    path: kustomize/ocp/openshift-gitops
     repoURL: 'https://github.com/Caseraw/demo-argocd.git'
     targetRevision: HEAD
   syncPolicy:
