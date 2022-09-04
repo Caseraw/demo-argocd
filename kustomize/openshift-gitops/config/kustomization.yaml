@@ -22,5 +22,5 @@ patches:
           enabled: true
           tls:
             insecureEdgeTerminationPolicy: Redirect
-            termination: reencrypt
+            termination: passthrough
           wildcardPolicy: None
