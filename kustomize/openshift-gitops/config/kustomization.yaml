@@ -24,7 +24,7 @@ patches:
       server:
         route:
           enabled: true
-        tls:
-          insecureEdgeTerminationPolicy: Redirect
-          termination: reencrypt
-        wildcardPolicy: None
+          tls:
+            insecureEdgeTerminationPolicy: Redirect
+            termination: reencrypt
+          wildcardPolicy: None
