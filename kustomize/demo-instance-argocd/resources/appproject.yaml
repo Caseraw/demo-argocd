@@ -6,12 +6,12 @@ metadata:
   namespace: demo-instance-argocd
 spec:
   description: This is a demo ArgoCD project.
-  # clusterResourceWhitelist:
-  #   - group: '*'
-  #     kind: '*'
-  # namespaceResourceWhitelist:
-  #   - group: '*'
-  #     kind: '*'
+  clusterResourceWhitelist:
+    - group: '*'
+      kind: '*'
+  namespaceResourceWhitelist:
+    - group: '*'
+      kind: '*'
   destinations:
     - namespace: '*'
       server: '*'
