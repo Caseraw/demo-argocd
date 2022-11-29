@@ -27,7 +27,7 @@ Install the OpenShift GitOps Operator:
 
 Install the *demo-instance-argocd* ArgoCD Instance:
 
-`oc apply -k kustomize/openshift-gitops/config`
+`oc apply -k kustomize/demo-instance-argocd`
 
 ## Uninstall
 
