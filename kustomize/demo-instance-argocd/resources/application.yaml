@@ -1,0 +1,19 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: demo-instance-argocd
+spec:
+  destination:
+    name: ''
+    namespace: demo-instance-argocd
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: kustomize/demo-instance-argocd
+    repoURL: 'https://github.com/Caseraw/demo-argocd.git'
+    targetRevision: HEAD
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
