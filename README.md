@@ -1,4 +1,4 @@
-# Installing OpenShift GitOps (ArgoCD)
+# Example setup for OpenShift GitOps (ArgoCD)
 
 An example setup that utilizes the OpenShift GitOps Operator to setup an ArgoCD demo instance. Use it for setting up labs, testing and or learning purposes.
 
@@ -20,6 +20,8 @@ It's tried and tested on:
 Clone the repository:
 
 `git clone https://github.com/Caseraw/demo-argocd.git`
+
+> If needed, make your own changes to the contents.
 
 Install the OpenShift GitOps Operator:
 
